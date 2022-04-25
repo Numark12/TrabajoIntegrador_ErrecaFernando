@@ -1,4 +1,4 @@
-.toolbar {
+.header {
     position: absolute;
     top: 0;
     left: 0;
@@ -11,56 +11,20 @@
     font-weight: 600;
   }
 
-  .toolbar img {
+  .header img {
     height: 100px;
     margin: 1em;
   }
 
-  .toolbar #twitter-logo {
-    height: 33px;
-    margin: 0 10px;
-    filter: brightness(0) invert(1);
-  }
 
-  .toolbar #facebook-logo {
-    height: 25px;
-    margin: 0 10px;
-    filter: brightness(0) invert(1);
-  }
-
-  .toolbar #instagram-logo {
-    height: 26px;
-    margin: 0 10px;
-    filter: brightness(0) invert(1);
-  }
-
-  .toolbar #linkedin-logo {
-    height: 26px;
-    margin-right: 30px;
-    filter: brightness(0) invert(1);
-  }
-
-  .toolbar #youtube-logo {
-    height: 40px;
-    margin: 0 16px;
-  }
-
-  .toolbar #twitter-logo:hover,
-  .toolbar #youtube-logo:hover,
-  .toolbar #facebook-logo:hover,
-  .toolbar #instagram-logo:hover,
-  .toolbar #linkedin-logo:hover {
-    opacity: 0.8;
-  }
-
-  .content {
+  /* .content {
     display: flex;
     margin: 82px auto 32px;
     padding: 0 16px;
     max-width: 960px;
     flex-direction: column;
     align-items: center;
-  }
+  } */
 
   .spacer {
     flex: 1;

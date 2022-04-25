@@ -1,0 +1,40 @@
+.social {
+    margin-right: 30px;
+}
+
+#twitter-logo {
+    height: 28px;
+    margin: 0 10px;
+    filter: brightness(0) invert(1);
+}
+
+#facebook-logo {
+    height: 24px;
+    margin: 0 10px;
+    filter: brightness(0) invert(1);
+}
+
+#instagram-logo {
+    height: 24px;
+    margin: 0 10px;
+    filter: brightness(0) invert(1);
+}
+
+#linkedin-logo {
+    height: 24px;
+    margin: 0 10px;
+    filter: brightness(0) invert(1);
+}
+
+#youtube-logo {
+    height: 40px;
+    margin: 0 10px;
+}
+
+#twitter-logo:hover,
+#youtube-logo:hover,
+#facebook-logo:hover,
+#instagram-logo:hover,
+#linkedin-logo:hover {
+    opacity: 0.8;
+}
