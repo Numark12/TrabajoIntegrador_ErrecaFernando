@@ -1,11 +1,13 @@
 .banner {
     width: 58vw;
-    height: 30vw;
+    height: 20vw;
     margin-top: 1vw;
+    overflow: hidden;
 }
 
 #imagen {
+    margin-top: -10vw;
     width: 58vw;
-    height: 30vw;
+    height: 40vw;
     opacity: 95%;
 }

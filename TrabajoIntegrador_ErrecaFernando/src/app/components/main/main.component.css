@@ -10,7 +10,12 @@
     margin: auto;
     margin-top: 2em;
     width: 60vw;
-    height: 500px;
     background-color: rgb(230, 234, 236);
     border: 2px solid rgb(240, 233, 233);
+}
+
+#footline {
+    height: 1vw;
+    background-color: rgb(230, 234, 236);
+    width: 60vw;
 }
