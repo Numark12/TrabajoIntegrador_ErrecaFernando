@@ -11,6 +11,8 @@ import { ProfileComponent } from './components/profile/profile.component';
 import { AboutComponent } from './components/about/about.component';
 import { ExpMainComponent } from './components/exp/exp-main/exp-main.component';
 import { JobAComponent } from './components/exp/job-a/job-a.component';
+import { NgCircleProgressModule } from 'ng-circle-progress';
+import { SkillsComponent } from './components/skills/skills.component';
 
 @NgModule({
   declarations: [
@@ -22,11 +24,13 @@ import { JobAComponent } from './components/exp/job-a/job-a.component';
     ProfileComponent,
     AboutComponent,
     ExpMainComponent,
-    JobAComponent
+    JobAComponent,
+    SkillsComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgCircleProgressModule.forRoot({})
   ],
   providers: [],
   bootstrap: [AppComponent]

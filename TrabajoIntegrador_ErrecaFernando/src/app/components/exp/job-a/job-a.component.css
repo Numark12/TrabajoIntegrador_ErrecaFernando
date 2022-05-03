@@ -1,6 +1,8 @@
 .job {
+    margin-left: 1vw;
+    border: 1px solid rgb(182, 174, 174);
     height: 6vw;
-    background-color: rgb(238, 231, 221);
+    background-color: rgb(240, 237, 234);
     display: flex;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
