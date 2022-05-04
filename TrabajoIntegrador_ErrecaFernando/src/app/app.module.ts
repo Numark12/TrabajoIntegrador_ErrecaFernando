@@ -13,6 +13,8 @@ import { ExpMainComponent } from './components/exp/exp-main/exp-main.component';
 import { JobAComponent } from './components/exp/job-a/job-a.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { SkillsComponent } from './components/skills/skills.component';
+import { JobBComponent } from './components/exp/job-b/job-b.component';
+import { JobCComponent } from './components/exp/job-c/job-c.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,9 @@ import { SkillsComponent } from './components/skills/skills.component';
     AboutComponent,
     ExpMainComponent,
     JobAComponent,
-    SkillsComponent
+    SkillsComponent,
+    JobBComponent,
+    JobCComponent
   ],
   imports: [
     BrowserModule,
