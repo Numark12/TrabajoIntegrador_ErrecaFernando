@@ -3,12 +3,14 @@
     margin-left: 1vw;
     border: 1px solid rgb(182, 174, 174);
     height: 6vw;
-    background-color: rgb(240, 237, 234);
+    background-color: rgb(255, 255, 255);
     display: flex;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .job img {
+    margin-left: 0.5vw;
+    margin-bottom: 0.5vw;
     margin-top: 0.5vw;
     width: 10vw;
     height: auto;
