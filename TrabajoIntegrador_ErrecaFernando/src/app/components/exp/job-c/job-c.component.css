@@ -33,3 +33,31 @@
     margin: 0;
     font-size: small;
 }
+
+
+@media only screen and (max-width: 600px) {
+    .job {
+        margin-left: 1vw;
+        border: 1px solid rgb(182, 174, 174);
+        height: 25vw;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .job-data h3 {
+        font-size: 12px;
+    }
+
+    .job-data p {
+        margin: 0;
+        font-size: 11px;
+    }
+
+    .job img {
+        margin-top: 0.5vw;
+        width: 55px;
+        height: 30px;
+    }
+    
+}

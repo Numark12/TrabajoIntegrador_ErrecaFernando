@@ -13,3 +13,4 @@ export class JobAComponent implements OnInit {
   }
 
 }
+

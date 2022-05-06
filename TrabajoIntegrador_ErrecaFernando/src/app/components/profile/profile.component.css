@@ -1,8 +1,37 @@
 .profile {
-    border: 10px solid rgb(228, 223, 223);
-    margin-left: 3vw;
-    margin-top: -5vw;
-    position: relative;
-    overflow: hidden;
-    border-radius: 50%;
+  border: 10px solid rgb(228, 223, 223);
+  width: 7vw;
+  /* margin-left: 3vw; */
+  margin-top: -5vw;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+div {
+  width: 30vw;
+  text-align: center;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .profile {
+    border: 5px solid rgb(228, 223, 223);
+    width: 20vw;
   }
+
+  div {
+    margin-top: -7vw;
+    /* border: 1px solid black; */
+  }
+
+  #nombre {
+    height: auto;
+    width: 30vw;
+    font-size: 12px;
+    font-weight: 600;
+    /* border: 1px solid black; */
+    margin-top: 0.5vw;
+  }
+}
