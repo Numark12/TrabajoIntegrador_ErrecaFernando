@@ -1,0 +1,35 @@
+.social {
+    margin-right: 0.5vw;
+}
+
+#twitter-logo {
+    height: 1.7vw;
+    margin: 0 0.5vw;
+    filter: brightness(0) invert(1);
+}
+
+#facebook-logo {
+    height: 1.7vw;
+    margin: 0 0.5vw;
+    filter: brightness(0) invert(1);
+}
+
+#instagram-logo {
+    height: 1.7vw;
+    margin: 0 0.5vw;
+    filter: brightness(0) invert(1);
+}
+
+#linkedin-logo {
+    height: 1.7vw;
+    margin: 0 0.5vw;
+    filter: brightness(0) invert(1);
+}
+
+
+#twitter-logo:hover,
+#facebook-logo:hover,
+#instagram-logo:hover,
+#linkedin-logo:hover {
+    opacity: 0.8;
+}

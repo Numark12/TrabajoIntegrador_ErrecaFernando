@@ -1,0 +1,49 @@
+.profile {
+  border: 10px solid rgb(228, 223, 223);
+  width: 7vw;
+  /* margin-left: 3vw; */
+  margin-top: -5vw;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+div {
+  width: 15vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* border: 1px solid rgb(236, 10, 10); */
+}
+
+#nombre {
+  /* border: 1px solid red; */
+  padding-top: 0.5vw;
+  padding-bottom: 0.5vw;
+  height: auto;
+  width: 12vw;
+  font-size: 0.7vw;
+  font-weight: 600;
+  color: aliceblue;
+  background-color: rgb(87, 87, 87);
+}
+
+@media only screen and (max-width: 600px) {
+  .profile {
+    border: 5px solid rgb(228, 223, 223);
+    width: 15vw;
+  }
+
+  div {
+    margin-top: -7vw;
+    border: 1px solid black;
+  }
+
+  #nombre {
+    height: auto;
+    width: 15vw;
+    font-size: 11px;
+    font-weight: 600;
+    margin-top: 0.5vw;
+      }
+}
