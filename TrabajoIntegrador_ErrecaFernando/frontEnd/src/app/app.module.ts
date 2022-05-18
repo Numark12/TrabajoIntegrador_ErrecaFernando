@@ -15,6 +15,7 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
 import { SkillsComponent } from './components/skills/skills.component';
 import { JobBComponent } from './components/exp/job-b/job-b.component';
 import { JobCComponent } from './components/exp/job-c/job-c.component';
+import { HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -30,11 +31,12 @@ import { JobCComponent } from './components/exp/job-c/job-c.component';
     SkillsComponent,
     JobBComponent,
     JobCComponent
-  ],
+  ], 
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgCircleProgressModule.forRoot({})
+    NgCircleProgressModule.forRoot({}),
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

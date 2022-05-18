@@ -4,6 +4,7 @@ import com.springdb.springdb.Entity.Perfil;
 import com.springdb.springdb.Interface.IPerfilService;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -14,6 +15,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
+@CrossOrigin(origins = "http://localhost:4200")
 public class PerfilController {
 
     @Autowired
@@ -37,16 +39,22 @@ public class PerfilController {
     }
 
     @PutMapping("perfil/editar/{id}")
-    public Perfil editPerfil(@PathVariable Long id, 
+    public Perfil editPerfil(@PathVariable Long id,
             @RequestParam("nombre") String nuevoNombre,
             @RequestParam("apellido") String nuevoApellido,
-            @RequestParam("img") String nuevoImg){
+            @RequestParam("img") String nuevoImg) {
         Perfil perfil = iperfilService.findPerfil(id);
         perfil.setNombre(nuevoNombre);
         perfil.setApellido(nuevoApellido);
         perfil.setImg(nuevoImg);
-        
+
         iperfilService.savePerfil(perfil);
         return perfil;
     }
+
+    @GetMapping("perfil/traer/p1")
+    public Perfil findPerfil() {
+        return iperfilService.findPerfil((long) 1);
+    }
+
 }

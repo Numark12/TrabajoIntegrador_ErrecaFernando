@@ -11,4 +11,6 @@ public interface IPerfilService {
     public void deletePerfil(Long id);
     
     public Perfil findPerfil(Long id);
+
+    public List<Perfil> getPerfil(long l);
 }
