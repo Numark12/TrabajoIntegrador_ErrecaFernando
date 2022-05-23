@@ -8,7 +8,7 @@ import { PerfilService } from 'src/app/service/perfil.service';
   styleUrls: ['./profile.component.css']
 })
 export class ProfileComponent implements OnInit {
-  perfil: perfil = new perfil("", "", "")
+  perfil: perfil = new perfil("", "", "", "")
   constructor(public perfilService: PerfilService) { }
 
   ngOnInit(): void {

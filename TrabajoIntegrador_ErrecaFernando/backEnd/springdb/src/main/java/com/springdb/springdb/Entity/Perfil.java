@@ -28,5 +28,6 @@ public class Perfil {
     @Size(min = 1, max = 50, message = "subir imagen")
     private String img;
     
-    
+    @Size(min = 1, max = 500, message = "completar perfil")
+    private String about;
 }

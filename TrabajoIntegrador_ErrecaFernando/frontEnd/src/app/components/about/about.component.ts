@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { perfil } from 'src/app/model/perfil.model';
+import { PerfilService } from 'src/app/service/perfil.service';
 
 
 @Component({
@@ -7,9 +9,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./about.component.css']
 })
 export class AboutComponent implements OnInit {
-  constructor() { }
+  perfil: perfil = new perfil("", "", "", "")
+  constructor(public perfilService: PerfilService) { }
 
   ngOnInit(): void {
+    this.perfilService.getPerfil().subscribe(data => {this.perfil = data})
   }
 
 

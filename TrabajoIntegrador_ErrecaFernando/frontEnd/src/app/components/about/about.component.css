@@ -3,7 +3,7 @@
     width: 58vw;
     height: 15vw;
     display: flex;
-    font-size: small;
+    /* font-size: small; */
 }
 
 
@@ -53,9 +53,9 @@
 
     #datos p {
         margin-top: 0;
-        font-size: 11px;
+        font-size: 1.5vw;
         text-align: justify;
-        width: 65vw;
+        width: 57vw;
     }
 
     #main-about {

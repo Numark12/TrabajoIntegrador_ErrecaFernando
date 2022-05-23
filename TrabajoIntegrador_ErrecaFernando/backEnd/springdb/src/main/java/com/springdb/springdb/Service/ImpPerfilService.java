@@ -36,5 +36,10 @@ public class ImpPerfilService implements IPerfilService{
        return perfil;
        
     }
+
+    @Override
+    public List<Perfil> getPerfil(long l) {
+        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+    }
     
 }

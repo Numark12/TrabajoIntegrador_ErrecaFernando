@@ -42,11 +42,13 @@ public class PerfilController {
     public Perfil editPerfil(@PathVariable Long id,
             @RequestParam("nombre") String nuevoNombre,
             @RequestParam("apellido") String nuevoApellido,
-            @RequestParam("img") String nuevoImg) {
+            @RequestParam("img") String nuevoImg,
+            @RequestParam("about") String nuevoAbout) {
         Perfil perfil = iperfilService.findPerfil(id);
         perfil.setNombre(nuevoNombre);
         perfil.setApellido(nuevoApellido);
         perfil.setImg(nuevoImg);
+        perfil.setAbout(nuevoAbout);
 
         iperfilService.savePerfil(perfil);
         return perfil;
@@ -54,7 +56,7 @@ public class PerfilController {
 
     @GetMapping("perfil/traer/p1")
     public Perfil findPerfil() {
-        return iperfilService.findPerfil((long) 1);
+        return iperfilService.findPerfil((long) 6);
     }
-
+ 
 }
