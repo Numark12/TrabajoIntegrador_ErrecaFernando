@@ -4,6 +4,7 @@ import com.springdb.springdb.Entity.Perfil;
 import java.util.List;
 
 public interface IPerfilService {
+  
     public List<Perfil> getPerfil();
     
     public void savePerfil(Perfil perfil);
