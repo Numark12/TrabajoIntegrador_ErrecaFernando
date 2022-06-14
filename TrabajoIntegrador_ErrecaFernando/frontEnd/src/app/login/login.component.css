@@ -1,0 +1,9 @@
+.container {
+    width: 25vw;
+    margin-top: 10vw;
+    padding-top: 5vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    border: 0.1px solid rgb(139, 136, 136);
+    border-radius: 5%;
+}
