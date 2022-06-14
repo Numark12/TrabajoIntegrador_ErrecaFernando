@@ -1,11 +1,11 @@
 <div class="skill-main">
   <hr />
-  <h2>Hard & Soft Skills</h2>
+  <h2>{{skills.nombre}} {{skills.porc}}</h2>
   <div class="grid">
     <!-- Hard Skills -->
     <circle-progress class="circle"
       [subtitleFontSize]="'15'"
-      [percent]="85"
+      [percent]="skills.porc"
       [radius]="60"
       [outerStrokeWidth]="11"
       [innerStrokeWidth]="6"
@@ -15,7 +15,7 @@
       [animationDuration]="500"
       [showTitle]="false"
       [showUnits]="false"
-      [subtitle]="'HTML'"
+      [subtitle]= "'{{skills.nombre}}'"
     ></circle-progress>
     <circle-progress class="circle"
       [subtitleFontSize]="'15'"

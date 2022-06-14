@@ -51,9 +51,9 @@ public class SkillsController {
         return skills;
     }
 
-  /*  @GetMapping("skills/traer/p1")
+    @GetMapping("skills/traer/s1")
     public Skills findSkill() {
-        return iskillsService.findSkill((long) 6);
-    }*/
+        return iskillsService.findSkill((long) 1);
+    }
 }
   

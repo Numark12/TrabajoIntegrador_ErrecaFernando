@@ -1,32 +1,36 @@
 .social {
+    /* padding-top: 1vw; */
     margin-right: 0.5vw;
+    /* border: 1px solid black; */
 }
 
 #twitter-logo {
-    height: 1.7vw;
+    height: 2.1vw;
     margin: 0 0.5vw;
     filter: brightness(0) invert(1);
 }
 
 #facebook-logo {
-    height: 1.7vw;
+    height: 1.9vw;
     margin: 0 0.5vw;
     filter: brightness(0) invert(1);
 }
 
 #instagram-logo {
-    height: 1.7vw;
+    height: 1.9vw;
     margin: 0 0.5vw;
     filter: brightness(0) invert(1);
 }
 
 #linkedin-logo {
-    height: 1.7vw;
+    height: 1.9vw;
     margin: 0 0.5vw;
     filter: brightness(0) invert(1);
 }
 
 
+
+button:hover
 #twitter-logo:hover,
 #facebook-logo:hover,
 #instagram-logo:hover,
